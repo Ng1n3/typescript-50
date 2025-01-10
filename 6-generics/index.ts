@@ -179,3 +179,5 @@ type Split5<Obj> = {
   [Prop in keyof Obj]: Record<Prop, Obj[P]>;
 }[keyof Obj];
 type AvailableFormats2 = Split5<VideoFormatURLs>;
+
+///
