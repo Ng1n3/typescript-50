@@ -95,4 +95,3 @@ type SelectCD = SelectBranch<AllMedia, 'cd'>;
 // Equal to
 // type SelectCD = CD | never
 
-// update to types
